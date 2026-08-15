@@ -1,0 +1,29 @@
+body{
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timerContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.buttonContainer{
+  display: flex;
+  gap: 10px;
+}
+
+.timerContainer p {
+  font-size: 128px;
+}
+
+.timerContainer button{
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+}
