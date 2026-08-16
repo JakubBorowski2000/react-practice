@@ -1,14 +1,16 @@
-# React Timer
+# React To-Do List
 
-A simple stopwatch-style timer built with React as a practice project.
+A simple to-do list app built with React as a practice project.
 
 ## Features
 
-* Start the timer
-* Pause the timer
-* Reset the timer
-* Displays time in `HH:MM:SS` format
-* Cleans up the interval when the component unmounts
+* Add new tasks
+* Delete existing tasks
+* Mark tasks as completed
+* Completed tasks are visually crossed out
+* Prevents empty tasks from being added
+* Clears the input after adding a task
+* Scrollable task list when many tasks are added
 
 ## Built With
 
@@ -36,8 +38,11 @@ npm run dev
 This project was created to practise React fundamentals including:
 
 * `useState`
-* `useRef`
-* `useEffect`
+* Controlled form inputs
+* Passing props between components
 * Event handling
-* State updates
-* Component cleanup
+* Rendering lists with `.map()`
+* Updating arrays in state
+* Removing items with `.filter()`
+* Conditional styling with CSS
+* Breaking UI into reusable components
