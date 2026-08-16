@@ -7,3 +7,4 @@ The goal is to learn by building simple projects and using different React conce
 ## Projects
 
 * [x] Timer
+* [x] To Do List
